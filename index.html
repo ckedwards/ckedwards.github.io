@@ -1,15 +1,634 @@
 <!DOCTYPE html>
 <html>
-  <body>
+  <head>
+    <script src="https://unpkg.com/@webcomponents/custom-elements@1.3.0"></script>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cerulean/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <style>
+      html {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      body {
+        position: relative;
+        display: flex;
+        flex-grow: 1;
+      }
+      #content {
+        display: grid;
+        flex-grow: 1;
+        overflow: auto;
+        grid-auto-rows: minmax(50%, 100%);
+        margin: 10px;
+        background-color: #dadada;
+      }
+      .app-container {
+        display: grid;
+        flex-grow: 1;
+        overflow: auto;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      }
+      #modal-bg {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #a7a7a7a3;
+      }
+      .hidden {
+        display: none !important;
+      }
+      #loadDialog {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        max-height: 800px;
+        height: 70%;
+      }
+      #codeTextArea {
+        height: 50000px;
+        display: flex;
+        flex-shrink: 1;
+        flex-grow: 1;
+        overflow: hidden;
+        box-sizing: border-box;
+      }
+      .flex {
+        display: flex;
+      }
+      .f-grow {
+        flex-grow: 1;
+      }
+      .dialog {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 5px;
+      }
+      .sidePanel {
+        box-sizing: border-box;
+        width: 300px;
+        display: grid;
+        grid-auto-rows: max-content;
+        grid-gap: 1rem;
+        padding: 1rem;
+        border-right-color: rgb(222, 226, 230);
+        border-right-style: solid;
+        border-right-width: 1px;
+        flex-shrink: 0;
+      }
+      .modal-content {
+        flex-shrink: 1;
+        overflow: hidden;
+      }
+      .modal-dialog {
+        overflow: hidden;
+        max-height: 90%;
+      }
+      .modal-body {
+        flex-grow: 1;
+        display: flex;
+        overflow: auto;
+        flex-shrink: 1;
+        flex-direction: column;
+      }
+      #fileInput {
+        display: flex;
+        flex-grow: 1;
+        flex-basis: 0;
+        width: 0;
+      }
+      .column {
+        flex-direction: column;
+      }
+    </style>
     <script>
-      const sideLoad = decodeURIComponent(
-        new URLSearchParams(window.location.search.toLocaleLowerCase()).get('side-load')
-      );
-      fetch(sideLoad).then(resp => {
-        return resp.text().then(text => {
-          console.log(resp);
+      function toQueryString(obj) {
+        return Object.keys(obj)
+          .map((key) => key + '=' + obj[key])
+          .join('&');
+      }
+
+      function parseQuery(queryString) {
+        var query = {};
+        var pairs = (queryString[0] === '?' ? queryString.substr(1) : queryString).split('&');
+        for (var i = 0; i < pairs.length; i++) {
+          var pair = pairs[i].split('=');
+          if (pair.length === 1 || !pair[0]) {
+            continue;
+          }
+          query[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1] || '');
+        }
+        return query;
+      }
+
+      function getUrlParameter(sParam) {
+        var sPageURL = window.location.search.substring(1);
+        var sURLVariables = sPageURL.split('&');
+        for (var i = 0; i < sURLVariables.length; i++) {
+          var sParameterName = sURLVariables[i].split('=');
+          //case insensitive
+          if (sParameterName[0].toLowerCase() === sParam.toLowerCase()) {
+            return decodeURIComponent(sParameterName[1]).toLowerCase();
+          }
+        }
+        return null;
+      }
+      var baseUrl = getUrlParameter('base-url');
+      if (!baseUrl) {
+        var version = getUrlParameter('version') || '';
+        //https://unpkg.com/@sassoftware/va-report-components/dist/umd/va-report-components.js
+        // Yay! sync ajax request!
+        const request = new XMLHttpRequest();
+        request.open(
+          'GET',
+          `https://unpkg.com/@sassoftware/va-report-components${version ? '@' + version : ''}/dist/umd/va-report-components.js`,
+          false
+        ); // `false` makes the request synchronous
+        request.send(null);
+        if(request.status >= 300) {
+          throw new Error(`Invalid request status ${request.status}, response: ${request.responseText}`)
+        }
+        version = request.responseURL.split('@')[2].split('/')[0];
+
+        const params = parseQuery(location.search);
+        params['version'] = version;
+        window.history.pushState('', '', '?' + toQueryString(params));
+        baseUrl = request.responseURL.substring(0, request.responseURL.lastIndexOf('/'));
+      }
+      if (!baseUrl.endsWith('/')) {
+        baseUrl += '/';
+      }
+
+      const sdkScript = document.createElement('script');
+      sdkScript.type = 'text/javascript';
+      sdkScript.async = true;
+      sdkScript.src = `${baseUrl}va-report-components.js`;
+      document.head.appendChild(sdkScript);
+
+      addEventListener('load', function() {
+        const tabs = Array.from(document.querySelectorAll('[data-type="tab"]'));
+        for (const tab of tabs) {
+          tab.addEventListener('click', (e) => {
+            if (e.target.dataset.group) {
+              const items = Array.from(document.querySelectorAll(`[data-group="${e.target.dataset.group}"]`));
+              for (const item of items) {
+                if (item.dataset.type === 'tab') {
+                  if (item === e.target) {
+                    item.classList.add('active');
+                  } else {
+                    item.classList.remove('active');
+                  }
+                  continue;
+                }
+                if (e.target.dataset.ref !== item.dataset.ref) {
+                  item.classList.add('hidden');
+                } else {
+                  item.classList.remove('hidden');
+                }
+              }
+            }
+          });
+        }
+
+        const dismissModals = Array.from(document.querySelectorAll('[data-dismiss="modal"]'));
+        for (const dismissModal of dismissModals) {
+          dismissModal.addEventListener('click', closeDialogs);
+        }
+
+        document.getElementById('modal-bg').addEventListener('click', (e) => {
+          if (e.target === document.getElementById('modal-bg')) {
+            closeDialogs();
+          }
+        });
+
+        document.addEventListener('paste', function handlePaste(e) {
+          if (!document.getElementById('modal-bg').classList.contains('hidden')) {
+            return;
+          }
+
+          const clipboardData = e.clipboardData || window.clipboardData;
+          const pastedData = clipboardData.getData('Text');
+
+          if (!pastedData.startsWith('<sas-report')) {
+            return;
+          }
+
+          e.preventDefault();
+
+          document.getElementById('link').value = pastedData;
+
+          addItem(pastedData);
+          localStorage.setItem('object_content', pastedData);
         });
       });
+    </script>
+  </head>
+  <body>
+    <div class="sidePanel">
+      <div>
+        <h5>Options:</h5>
+        <label>Authentication Override:</label><br />
+        <select id="authSelect">
+          <option value="">None</option>
+          <option value="guest">Guest</option>
+          <option value="credentials">Credentials</option>
+        </select>
+      </div>
+      <div>
+        <label>Most recent object:</label><br />
+        <textarea
+          id="link"
+          disabled
+          placeholder="Paste anywhere (control+v) to add a report!"
+          style="height: 50px; width: 100%;"
+        ></textarea>
+        <button class="btn btn-secondary" onclick="addItem()">Add Duplicate Object</button>
+      </div>
+      <div style="padding-top: 1rem;">
+        <h5>Manage:</h5>
+        <button class="btn btn-danger" onclick="removeItems()">Remove All Items</button><br />
+        <button class="btn btn-secondary" onclick="download()">Download layout json</button><br />
+        <button class="btn btn-secondary" onclick="openLoadReport()">Open...</button><br />
+        <button class="btn btn-secondary" onclick="openHelpDialog()">Help...</button>
+      </div>
+      <div>
+        <label>Parameters Override:</label><br />
+        <textarea id="parmsText" style="width: 100%;" onchange="parmsAreaUpdated()"></textarea>
+        <button class="btn btn-secondary" onclick="applyParameters()">Apply to all sas-reports</button>
+      </div>
+    </div>
+    <div id="content"></div>
+    <div id="modal-bg" class="hidden">
+      <div id="loadDialog" class="hidden modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Open LoaderTesterReport</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="m-content modal-body">
+            <div>Layout content:</div>
+            <textarea id="codeTextArea"></textarea>
+          </div>
+          <div class="m-footer modal-footer flex">
+            <input id="fileInput" type="file" accept="application/json" onchange="openFile()" />
+            <button class="btn btn-primary" onclick="closeLoadReport(true)">Load</button>
+            <button class="btn btn-secondary" onclick="closeLoadReport(false)">Cancel</button>
+          </div>
+        </div>
+      </div>
+      <div id="helpDialog" class="modal-dialog hidden flex" style="width: 900px; max-width: 80%;">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Help</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="m-content modal-body">
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link active" href="#" data-type="tab" data-group="nav-opts" data-ref="options">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-type="tab" data-group="nav-opts" data-ref="parameters">Parameters</a>
+              </li>
+            </ul>
+            <div class="flex column auto" data-group="nav-opts" data-ref="options">
+              <h4>Why another tests app</h4>
+              <p>
+                It is possible that this could be rolled in to a unifying test app, this app is unique in that it is
+                targets testing authentication. As a result we cannot log in to the server or use guest mode to access
+                reports. To work around these issues this app uses report links and saves the current layout so it is
+                not lost on refresh. this way the tester can log out of the server and reload this page and the reports
+                that were last used will be maintained.
+              </p>
+              <h4>How to add a report or report object.</h4>
+              <ul>
+                <li>Open A report in VA</li>
+                <li>Use the <code>Link</code> feature to copy a report or report item link</li>
+                <li>Past the link in the <code>Link</code> input field</li>
+                <li>Click <code>Add Item</code></li>
+                <p>
+                  You can add add multiple links to a page and a very simplistic layout algorithm will be used to layout
+                  the report and report objects.
+                </p>
+                <p>If you like to clear the current items click <code>Remove All Items</code></p>
+                <p>
+                  If you would like to view the layout on another browser or share with others, you can download a JSON
+                  representation using the <code>Download layout json</code> button.
+                </p>
+              </ul>
+              <h4>Authentication Override</h4>
+              <p>
+                If you would like to override the authentication type set this option before clicking 'Add Item`. This
+                option only applies to new objects.
+              </p>
+            </div>
+            <div class="flex column auto hidden" data-group="nav-opts" data-ref="parameters">
+              <h4>URL Parameters</h4>
+              <p>
+                <b>base-url</b><br />
+                The base url to load `va-report-components.js` from. If no <code>base-url</code> is provided, then
+                <b>version</b> will be used.
+              </p>
+              <p>
+                <b>version</b><br />
+                The version of the va-sdk that is being loaded. If no <code>version</code> is provided, the latest
+                va-sdk will be used and that version will be appended as a url parameter. If the <b>base-url</b> url
+                parameter is set then <code>version</code> has no effect.
+              </p>
+              <p>
+                <b>milestone</b><br />
+                When a version is not specified, the milestone will be used to determine the latest version for which
+                release. If the
+                <code>version</code> url parameter is set then <code>milestone</code> has no effect. <br /><em
+                  >default:&nbsp;</em
+                >W47
+              </p>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">value</th>
+                    <th scope="col">description</th>
+                    <th scope="col">symantec version</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>GatherIQ</td>
+                    <td></td>
+                    <td>
+                      0.0.x
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>GA</td>
+                    <td>
+                      SDK GA Release
+                    </td>
+                    <td>
+                      0.1.272
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>W40</td>
+                    <td>
+                      W40 release
+                    </td>
+                    <td>
+                      0.1.x
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>W47</td>
+                    <td>
+                      W47 release
+                    </td>
+                    <td>
+                      0.2.x
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      /**
+       *  TO CODE SNOOPERS:
+       *
+       *  The rendering method I am using here is terrible and rife
+       *  with XSS Security vulnerabilities. For something similar
+       *  but less vulnerable, please check out lit-html
+       */
+      const renderer = document.createElement('div');
+      function render(stringContent) {
+        renderer.innerHTML = stringContent;
+        return renderer.children[0];
+      }
+
+      function getHtml(element) {
+        var string = `<${element.tagName.toLocaleLowerCase()}`;
+        if (element.hasAttributes()) {
+          const attrs = element.attributes;
+          for (var i = attrs.length - 1; i >= 0; i--) {
+            if (attrs[i].name == 'style') {
+              continue;
+            }
+            string += ` ${attrs[i].name}="${attrs[i].value.replace(/"/g, '\\"')}" `;
+          }
+        }
+        return `${string}></${element.tagName.toLocaleLowerCase()}>`;
+      }
+
+      function getPageData() {
+        const reportData = [];
+        for (child of document.getElementById('content').children) {
+          if (child.classList.contains('app-container')) {
+            const subData = [];
+            for (const subChild of child.children) {
+              subData.push(getHtml(subChild));
+            }
+            reportData.push(subData);
+          } else {
+            reportData.push(getHtml(child));
+          }
+        }
+        return {
+          version: 2,
+          reportData,
+        };
+      }
+
+      function objectToHtml(data) {
+        const tagName = 'objectName' in data ? 'sas-report-object' : 'sas-report';
+
+        let uri = data.reportUri || data.reportUid;
+        if (!uri.startsWith('/reports/reports/')) {
+          uri = `/reports/reports/${uri}`;
+        }
+        let tag = `<${tagName} url="${data.url}" reportUri="${uri}"`;
+        if ('authenticationType' in data) {
+          tag += ` authenticationType="${data.authenticationType}" `;
+        }
+        if ('objectName' in data) {
+          tag += ` objectName="${data.objectName}" `;
+        }
+        if ('hideNavigation' in data) {
+          tag += ` hideNavigation="${data.hideNavigation}" `;
+        }
+        return tag + `></${tagName}>`;
+      }
+
+      function processContent(data) {
+        if (!data) {
+          return data;
+        }
+        if (data.version == 2) {
+          return data;
+        }
+        // Migration!
+        if (Array.isArray(data)) {
+          const newData = {
+            version: 2,
+            reportData: [],
+          };
+          for (const item of data) {
+            if (Array.isArray(item)) {
+              const subData = [];
+              for (const subItem of item) {
+                subData.push(objectToHtml(subItem));
+              }
+              newData.reportData.push(subData);
+            } else {
+              newData.reportData.push(objectToHtml(item));
+            }
+          }
+          return newData;
+        }
+      }
+
+      document.getElementById('link').value = localStorage.getItem('object_content');
+      const oldData = processContent(JSON.parse(localStorage.getItem('current_report')));
+      if (oldData && oldData.version == 2) {
+        const items = oldData.reportData;
+        for (const reportItem of items) {
+          if (Array.isArray(reportItem)) {
+            for (const subItem of reportItem) {
+              addItem(subItem);
+            }
+          } else {
+            addItem(reportItem);
+          }
+        }
+      }
+
+      let parm_data;
+      if (localStorage.getItem('prams_data')) {
+        try {
+          parm_data = JSON.stringify(JSON.parse(localStorage.getItem('prams_data')));
+        } catch (e) {}
+      }
+      document.getElementById('parmsText').value = parm_data || '';
+
+      function download() {
+        var dataStr =
+          'data:application/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(getPageData(), null, '  '));
+        var downloadAnchorNode = document.createElement('a');
+        downloadAnchorNode.setAttribute('href', dataStr);
+        downloadAnchorNode.setAttribute('download', 'logonTesterReport.json');
+        document.body.appendChild(downloadAnchorNode); // required for firefox
+        downloadAnchorNode.click();
+        downloadAnchorNode.remove();
+      }
+
+      function openFile() {
+        var input = event.target;
+
+        var reader = new FileReader();
+        reader.onload = function() {
+          document.getElementById('codeTextArea').value = reader.result;
+          input.value = null;
+        };
+        reader.readAsText(input.files[0]);
+      }
+
+      function removeItems() {
+        document.getElementById('content').innerHTML = null;
+        localStorage.removeItem('current_report');
+      }
+
+      function addItem(data, ignoreOverrides) {
+        data = data || document.getElementById('link').value;
+        if (!data || !data.startsWith('<sas-report')) {
+          return;
+        }
+        let report = null;
+        try {
+          report = render(data);
+        } catch (e) {
+          return;
+        }
+        const overrideValue = document.getElementById('authSelect').value;
+        if (!ignoreOverrides && overrideValue) {
+          report.setAttribute('authenticationType', overrideValue);
+        }
+        if (!ignoreOverrides && data.startsWith('<sas-report')) {
+          const parms = document.getElementById('parmsText').value;
+          if (parms) {
+            report.setAttribute('parameters', parms);
+          }
+        }
+        if (data.startsWith('<sas-report-object')) {
+          const container = document.getElementById('content').lastElementChild;
+          if (container && container.classList.contains('app-container') && container.childElementCount < 3) {
+            container.appendChild(report);
+          } else {
+            const el = document.createElement('div');
+            el.classList.add('app-container');
+            document.getElementById('content').appendChild(el);
+            el.appendChild(report);
+          }
+        } else {
+          document.getElementById('content').appendChild(report);
+        }
+        localStorage.setItem('current_report', JSON.stringify(getPageData()));
+      }
+      function openDialog(id) {
+        document.getElementById('modal-bg').classList.remove('hidden');
+        document.getElementById(id).classList.remove('hidden');
+      }
+      function closeDialogs() {
+        document.getElementById('modal-bg').classList.add('hidden');
+        document.getElementById('loadDialog').classList.add('hidden');
+        document.getElementById('helpDialog').classList.add('hidden');
+      }
+      function openLoadReport() {
+        document.getElementById('codeTextArea').value = JSON.stringify(getPageData(), null, '  ');
+        openDialog('loadDialog');
+      }
+      function openHelpDialog() {
+        openDialog('helpDialog');
+      }
+      function closeLoadReport(save) {
+        if (save) {
+          removeItems();
+          const newData = processContent(JSON.parse(document.getElementById('codeTextArea').value));
+          for (const reportItem of newData.reportData) {
+            if (Array.isArray(reportItem)) {
+              for (const subItem of reportItem) {
+                addItem(subItem, true);
+              }
+            } else {
+              addItem(reportItem, true);
+            }
+          }
+        }
+        closeDialogs();
+      }
+      function applyParameters() {
+        const parms = document.getElementById('parmsText').value;
+        const els = document.getElementsByTagName('sas-report');
+        for (const el of els) {
+          el.setAttribute('parameters', parms);
+        }
+        localStorage.setItem('current_report', JSON.stringify(getPageData()));
+      }
+      function parmsAreaUpdated() {
+        localStorage.setItem('prams_data', document.getElementById('parmsText').value);
+      }
     </script>
   </body>
 </html>
