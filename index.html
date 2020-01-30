@@ -1,1 +1,15 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <body>
+    <script>
+      const sideLoad = decodeURIComponent(
+        new URLSearchParams(window.location.search.toLocaleLowerCase()).get('side-load')
+      );
+      fetch(sideLoad).then(resp => {
+        return resp.text().then(text => {
+          console.log(resp);
+        });
+      });
+    </script>
+  </body>
+</html>
