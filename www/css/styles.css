@@ -1,0 +1,282 @@
+body {
+  background-color: rgb(16, 48, 82);
+  color: #bedefe;
+  font-family: 'Lato', sans-serif;
+  font-size: 21px;
+  line-height: 32px;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+h1 {
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+  font-weight: 900;
+}
+
+#main {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 0px;
+}
+
+#lastUpdate {
+  font-style: italic;
+  font-size: 13px;
+}
+
+h4 {
+  background-color: yellow;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -64px;
+  visibility: hidden;
+}
+
+.sasKeys {
+  width: 33%;
+}
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#fineprintH2 {
+  font-size: 13px;
+  font-weight: 900;
+}
+
+#fineprintP {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#topButton {
+  border-color: #bedefe;
+}
+
+#topButton .hover {
+  background-color: #35a5ff;
+}
+
+.hover {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 562px;
+}
+
+.hover-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  transition: all 0.4s;
+}
+
+.hover img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.hover-content {
+  position: relative;
+  z-index: 99;
+}
+
+.hover-5::after {
+  content: '';
+  width: 100%;
+  height: 10px;
+  background: #bedefe;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  display: block;
+  transition: all 0.3s;
+  z-index: 999;
+}
+
+.hover-5 .hover-overlay {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.hover-5-title {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  transition: all 0.3s;
+  padding: 2rem 3rem;
+  z-index: 99;
+}
+
+.hover-5-title span {
+  transition: all 0.4s;
+  opacity: 0;
+  color: #bedefe;
+}
+
+.hover-5:hover .hover-overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.hover-5:hover .hover-5-title {
+  bottom: 0;
+}
+
+.hover-5:hover .hover-5-title span {
+  opacity: 1;
+}
+
+.hover-5:hover::after {
+  bottom: 0;
+}
+
+.footerback {
+  background-color: #050a1ee0;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  -webkit-box-shadow: 0px 0px 19px -6px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 0px 0px 19px -6px rgba(0, 0, 0, 0.63);
+  box-shadow: 0px 0px 19px -6px rgba(0, 0, 0, 0.63);
+  border-top: 1px solid #050a3de0;
+}
+
+.footerDisclaimer {
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  display: block;
+}
+
+.key-val-main {
+  flex-wrap: initial;
+  justify-content: center;
+}
+
+.key-val-main .column {
+  flex-shrink: 1;
+  overflow: hidden;
+  display: flex;
+}
+
+.key-val-main sas-report-object {
+  flex-shrink: 1;
+}
+
+@media (max-width: 991px) {
+  .key-val-main {
+    flex-direction: column;
+  }
+  .key-val-main .column {
+    justify-content: center;
+  }
+}
+
+.header {
+  padding-top: 27px;
+  padding-bottom: 28px;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+@media (min-width: 600px) {
+  .header-container {
+    min-height: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (min-width: 0px) and (orientation: landscape) {
+  .header-container {
+    min-height: 48px;
+  }
+}
+.header-container {
+  min-height: 56px;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.logo-container {
+  border-right: solid white 1px;
+  padding-right: 1.3125rem;
+}
+.header-text {
+  color: white;
+  cursor: pointer;
+  font-size: 26px;
+  font-family: 'Proxima Nova', 'Open Sans', Corbel, Arial, sans-serif;
+  font-weight: 600;
+  line-height: 29.9px;
+  padding-left: 21px;
+  letter-spacing: 0.00938em;
+}
+
+.map-container {
+  margin: auto;
+  position: relative;
+  max-width: 800px;
+  max-height: 100vh;
+}
+.map-legend {
+  right: 0px;
+  position: absolute;
+  bottom: initial;
+  left: initial;
+  top: 30px;
+}
+
+@media (max-width: 991px) {
+  .map-legend {
+    right: -80px;
+    position: absolute;
+    bottom: initial;
+    left: initial;
+    top: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .map-legend {
+    right: initial;
+    position: initial;
+    bottom: initial;
+    left: initial;
+    top: initial;
+  }
+}
+
+.styled-scrollbar::-webkit-scrollbar {
+  width: 11px;
+}
+.styled-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #002137 #314c68;
+}
+.styled-scrollbar::-webkit-scrollbar-track {
+  background: #314c68;
+}
+.styled-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #002137;
+  border-radius: 6px;
+  border: 2px solid #314c68;
+}

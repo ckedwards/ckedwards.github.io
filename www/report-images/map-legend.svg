@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="200" height="130" viewBox="296.26 190 200 130">
+    <g>
+        <g transform=" translate(16.0 -16.0)">
+            <defs>
+                <clipPath id="ClipPath0">
+                    <rect x="2" y="30" width="286" height="468"></rect>
+                </clipPath>
+            </defs>
+            <g clip-path="url(#ClipPath0)">
+                <defs>
+                    <clipPath id="ClipPath1">
+                        <rect x="2" y="33" width="283" height="465"></rect>
+                    </clipPath>
+                </defs>
+                <g clip-path="url(#ClipPath1)"></g>
+            </g>
+        </g>
+        <g transform=" translate(16.0 -16.0)"></g>
+        <g transform=" translate(16.0 -16.0)"></g>
+        <g transform=" translate(16.0 -16.0)">
+            <g fill="#f9fafb" stroke="#f9fafb" transform="translate(296.26 220.07) scale(0.014 -0.014)">
+                <defs>
+                    <path id="g67/TT0" d="M428.0 615.0Q 356.0,615.0  300.5,581.0 T 214.0,488.0 T 183.0,356.0 Q 183.0,279.0  212.5,220.0 T 296.5,128.0 T 423.0,95.0 Q 478.0,95.0  522.5,117.0 T 595.0,177.0  L696.0 106.0Q 648.0,46.0  579.0,14.0 T 422.0,-18.0 Q 313.0,-18.0  227.0,29.5 T 92.5,162.0 T 44.0,356.0 Q 44.0,467.0  94.0,551.0 T 231.5,680.5 T 428.0,726.0 Q 502.0,726.0  573.5,698.5 T 685.0,618.0  L589.0 542.0Q 563.0,578.0  518.5,596.5 T 428.0,615.0 Z"></path>
+                </defs>
+                <use x="0" y="0" xlink:href="#g67/TT0" />
+                <defs>
+                    <path id="g79/TT0" d="M423.0 726.0Q 533.0,726.0  620.0,680.5 T 756.0,551.0 T 805.0,356.0 Q 805.0,247.0  756.0,162.0 T 619.5,29.5 T 423.0,-18.0 Q 315.0,-18.0  228.5,29.5 T 93.0,162.0 T 44.0,356.0 Q 44.0,467.0  93.0,551.0 T 228.0,680.5 T 314.0,726.0 Z M424.0 95.0Q 495.0,95.0  550.5,128.5 T 637.0,221.5 T 668.0,356.0 Q 668.0,429.0  637.5,488.0 T 551.5,581.0 T 424.0,615.0 Q 353.0,615.0  297.5,581.0 T 211.5,488.0 T 181.0,356.0 Q 181.0,281.0  212.0,221.5 T 298.0,128.5 T 353.0,95.0 Z"></path>
+                </defs>
+                <use x="696.0" y="0" xlink:href="#g79/TT0" />
+                <defs>
+                    <path id="g86/TT0" d="M-10.0 708.0 L131.0 708.0 L326.0 163.0 L330.0 163.0 L527.0 708.0 L663.0 708.0 L379.0 0 L270.0 0 L-10.0 708.0Z"></path>
+                </defs>
+                <use x="1545.0" y="0" xlink:href="#g86/TT0" />
+                <defs>
+                    <path id="g73/TT0" d="M78.0 708.0 L204.0 708.0 L204.0 0 L78.0 0 L78.0 708.0Z"></path>
+                </defs>
+                <use x="2198.0" y="0" xlink:href="#g73/TT0" />
+                <defs>
+                    <path id="g68/TT0" d="M329.0 708.0Q 430.0,708.0  518.5,673.0 T 663.5,558.5 T 720.0,354.0 Q 720.0,237.0  663.0,157.0 T 516.5,38.5 T 329.0,0  L78.0 0 L78.0 708.0 L329.0 708.0Z M585.0 354.0Q 585.0,492.0  506.0,546.0 T 309.0,600.0  L204.0 600.0 L204.0 110.0 L309.0 110.0Q 424.0,110.0  504.5,166.5 T 585.0,354.0 Z"></path>
+                </defs>
+                <use x="2480.0" y="0" xlink:href="#g68/TT0" />
+                <defs>
+                    <path id="g45/TT0" d="M280.0 195.0 L40.0 195.0 L40.0 297.0 L280.0 297.0 L280.0 195.0Z"></path>
+                </defs>
+                <use x="3244.0" y="0" xlink:href="#g45/TT0" />
+                <defs>
+                    <path id="g49/TT0" d="M279.0 562.0 L139.0 447.0 L69.0 530.0 L290.0 708.0 L399.0 708.0 L399.0 0 L279.0 0 L279.0 562.0Z"></path>
+                </defs>
+                <use x="3564.0" y="0" xlink:href="#g49/TT0" />
+                <defs>
+                    <path id="g57/TT0" d="M350.0 263.0 L349.0 264.0Q 335.0,258.0  314.0,254.5 T 273.0,251.0 Q 211.0,251.0  159.5,281.0 T 77.5,363.0 T 47.0,478.0 Q 47.0,551.0  81.0,607.5 T 174.0,695.0 T 305.0,726.0 Q 378.0,726.0  437.0,694.0 T 530.0,606.5 T 564.0,483.0 Q 564.0,426.0  546.5,380.5 T 491.0,274.0  L314.0 0 L168.0 0 L350.0 263.0Z M306.0 626.0Q 245.0,626.0  207.5,586.5 T 170.0,484.0 Q 170.0,424.0  207.0,385.0 T 304.0,346.0 Q 365.0,346.0  403.5,385.0 T 442.0,486.0 Q 442.0,523.0  425.0,555.0 T 377.0,606.5 T 346.0,626.0 Z"></path>
+                </defs>
+                <use x="4174.0" y="0" xlink:href="#g57/TT0" />
+                <use x="4784.0" y="0" xlink:href="#g32/TT0" />
+                <defs>
+                    <path id="g99/TT0" d="M301.0 394.0Q 259.0,394.0  229.0,372.0 T 184.0,314.5 T 169.0,240.0 Q 169.0,201.0  184.5,165.5 T 231.0,108.0 T 305.0,86.0 Q 334.0,86.0  361.5,97.5 T 406.0,129.0  L481.0 53.0Q 451.0,21.0  404.5,3.5 T 304.0,-14.0 Q 232.0,-14.0  173.0,16.5 T 79.0,104.5 T 44.0,240.0 Q 44.0,316.0  78.5,373.5 T 171.5,462.5 T 301.0,494.0 Q 354.0,494.0  404.0,474.0 T 482.0,419.0  L400.0 347.0Q 386.0,367.0  358.0,380.5 T 301.0,394.0 Z"></path>
+                </defs>
+                <use x="5034.0" y="0" xlink:href="#g99/TT0" />
+                <defs>
+                    <path id="g97/TT0" d="M367.0 61.0Q 349.0,29.0  308.5,8.5 T 218.0,-12.0 Q 175.0,-12.0  134.0,3.0 T 65.5,51.5 T 38.0,137.0 Q 38.0,233.0  131.0,266.5 T 368.0,300.0  L368.0 312.0Q 368.0,354.0  337.0,377.0 T 258.0,400.0 Q 221.0,400.0  186.0,384.5 T 127.0,345.0  L65.0 418.0Q 105.0,455.0  158.5,474.5 T 268.0,494.0 Q 385.0,494.0  433.5,436.0 T 482.0,292.0  L482.0 0 L370.0 0 L370.0 61.0 L367.0 61.0Z M341.0 219.0Q 158.0,219.0  158.0,139.0 Q 158.0,107.0  182.5,93.0 T 242.0,79.0 Q 303.0,79.0  335.5,111.5 T 368.0,202.0  L368.0 219.0 L341.0 219.0Z"></path>
+                </defs>
+                <use x="5522.0" y="0" xlink:href="#g97/TT0" />
+                <defs>
+                    <path id="g115/TT0" d="M230.0 404.0Q 198.0,404.0  175.5,391.0 T 153.0,352.0 Q 153.0,327.0  176.0,315.0 T 257.0,289.0 Q 325.0,273.0  368.5,241.0 T 412.0,146.0 Q 412.0,64.0  355.5,25.0 T 212.0,-14.0 Q 155.0,-14.0  102.0,7.0 T 15.0,65.0  L94.0 139.0Q 114.0,112.0  146.5,95.5 T 217.0,79.0 Q 248.0,79.0  271.0,93.0 T 294.0,136.0 Q 294.0,164.0  269.5,177.5 T 184.0,205.0 Q 119.0,221.0  80.5,250.5 T 42.0,341.0 Q 42.0,416.0  98.0,455.0 T 233.0,494.0 Q 287.0,494.0  336.0,475.0 T 413.0,421.0  L335.0 352.0Q 318.0,374.0  290.0,389.0 T 230.0,404.0 Z"></path>
+                </defs>
+                <use x="6072.0" y="0" xlink:href="#g115/TT0" />
+                <defs>
+                    <path id="g101/TT0" d="M529.0 202.0 L164.0 202.0Q 168.0,152.0  208.0,118.0 T 301.0,84.0 Q 384.0,84.0  428.0,146.0  L508.0 82.0Q 437.0,-14.0  302.0,-14.0 Q 228.0,-14.0  169.5,16.5 T 77.5,104.0 T 44.0,237.0 Q 44.0,313.0  77.0,371.5 T 168.0,462.0 T 298.0,494.0 Q 402.0,494.0  466.0,427.0 T 530.0,234.0 Q 530.0,213.0  529.0,202.0 Z M297.0 404.0Q 244.0,404.0  206.0,371.0 T 164.0,288.0  L410.0 288.0Q 410.0,338.0  381.0,371.0 T 297.0,404.0 Z"></path>
+                </defs>
+                <use x="6516.0" y="0" xlink:href="#g101/TT0" />
+                <use x="7090.0" y="0" xlink:href="#g115/TT0" />
+            </g>
+            <text id="Text_7" x="348.26" y="220.07" font-size="10.5pt" font-family="Avenir Next" font-weight="bold" fill="#f9fafb" text-anchor="middle" opacity="0">
+ COVID-19 cases</text>
+            <defs>
+                <linearGradient id="gradient0" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#dae0e5" stop-opacity="1.0"></stop>
+                    <stop offset="5%" stop-color="#f8f9fa" stop-opacity="1.0"></stop>
+                    <stop offset="95%" stop-color="#f8f9fa" stop-opacity="1.0"></stop>
+                    <stop offset="100%" stop-color="#dae0e5" stop-opacity="1.0"></stop>
+                </linearGradient>
+            </defs>
+            <rect x="295.52" y="226.48" width="9.0" height="9.0" fill="url(#gradient0)"></rect>
+            <g fill="#b0b8c3" stroke="#b0b8c3" transform="translate(308.52 235.28) scale(0.012 -0.012)">
+                <defs>
+                    <path id="g48/TT1" d="M522.0 353.0Q 522.0,195.0  467.0,88.5 T 290.0,-18.0 Q 167.0,-18.0  112.5,88.5 T 58.0,353.0 Q 58.0,512.0  112.5,619.0 T 290.0,726.0 Q 412.0,726.0  467.0,618.5 T 522.0,353.0 Z M131.0 353.0Q 131.0,226.0  167.5,135.0 T 290.0,44.0 Q 375.0,44.0  412.0,135.5 T 449.0,353.0 Q 449.0,480.0  412.0,572.5 T 290.0,665.0 Q 204.0,665.0  167.5,573.0 T 131.0,353.0 Z"></path>
+                </defs>
+                <use x="0" y="0" xlink:href="#g48/TT1" />
+            </g>
+            <text x="308.52" y="235.28" font-size="9.0pt" font-family="Avenir Next" fill="#b0b8c3" text-anchor="start" opacity="0">
+ 0</text>
+            <defs>
+                <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#9bc6df" stop-opacity="1.0"></stop>
+                    <stop offset="5%" stop-color="#bcd9ea" stop-opacity="1.0"></stop>
+                    <stop offset="95%" stop-color="#bcd9ea" stop-opacity="1.0"></stop>
+                    <stop offset="100%" stop-color="#9bc6df" stop-opacity="1.0"></stop>
+                </linearGradient>
+            </defs>
+            <rect x="295.52" y="241.17" width="9.0" height="9.0" fill="url(#gradient1)"></rect>
+            <g fill="#b0b8c3" stroke="#b0b8c3" transform="translate(308.52 249.98) scale(0.012 -0.012)">
+                <defs>
+                    <path id="g49/TT1" d="M358.0 0 L286.0 0 L286.0 619.0 L158.0 510.0 L114.0 560.0 L294.0 708.0 L358.0 708.0 L358.0 0Z"></path>
+                </defs>
+                <use x="0" y="0" xlink:href="#g49/TT1" />
+                <defs>
+                    <path id="g45/TT1" d="M272.0 214.0 L48.0 214.0 L48.0 271.0 L272.0 271.0 L272.0 214.0Z"></path>
+                </defs>
+                <use x="580.0" y="0" xlink:href="#g45/TT1" />
+                <defs>
+                    <path id="g52/TT1" d="M436.0 234.0 L540.0 234.0 L540.0 171.0 L436.0 171.0 L436.0 0 L366.0 0 L366.0 171.0 L42.0 171.0 L42.0 241.0 L342.0 708.0 L436.0 708.0 L436.0 234.0Z M366.0 627.0 L364.0 627.0 L117.0 234.0 L366.0 234.0 L366.0 627.0Z"></path>
+                </defs>
+                <use x="900.0" y="0" xlink:href="#g52/TT1" />
+                <use x="1480.0" y="0" xlink:href="#g49/TT1" />
+            </g>
+            <text x="308.52" y="249.98" font-size="9.0pt" font-family="Avenir Next" fill="#b0b8c3" text-anchor="start" opacity="0">
+ 1-41</text>
+            <defs>
+                <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#4397c8" stop-opacity="1.0"></stop>
+                    <stop offset="5%" stop-color="#5ba4cf" stop-opacity="1.0"></stop>
+                    <stop offset="95%" stop-color="#5ba4cf" stop-opacity="1.0"></stop>
+                    <stop offset="100%" stop-color="#4397c8" stop-opacity="1.0"></stop>
+                </linearGradient>
+            </defs>
+            <rect x="295.52" y="255.87" width="9.0" height="9.0" fill="url(#gradient2)"></rect>
+            <g fill="#b0b8c3" stroke="#b0b8c3" transform="translate(308.52 264.68) scale(0.012 -0.012)">
+                <use x="0" y="0" xlink:href="#g52/TT1" />
+                <defs>
+                    <path id="g50/TT1" d="M51.0 0 L51.0 75.0 L341.0 368.0Q 380.0,408.0  403.0,447.0 T 426.0,530.0 Q 426.0,590.0  385.5,627.5 T 286.0,665.0 Q 230.0,665.0  191.0,630.0 T 140.0,539.0  L69.0 553.0Q 84.0,629.0  144.0,677.5 T 286.0,726.0 Q 344.0,726.0  392.5,703.5 T 470.0,637.0 T 499.0,531.0 Q 499.0,469.0  470.0,421.5 T 384.0,317.0  L129.0 64.0 L504.0 64.0 L504.0 0 L51.0 0Z"></path>
+                </defs>
+                <use x="580.0" y="0" xlink:href="#g50/TT1" />
+                <use x="1160.0" y="0" xlink:href="#g45/TT1" />
+                <defs>
+                    <path id="g56/TT1" d="M517.0 186.0Q 517.0,126.0  486.0,79.5 T 403.0,7.5 T 290.0,-18.0 Q 229.0,-18.0  177.0,7.5 T 94.0,79.5 T 63.0,186.0 Q 63.0,256.0  100.5,306.5 T 197.0,375.0  L197.0 377.0Q 150.0,393.0  120.0,437.5 T 90.0,537.0 Q 90.0,593.0  117.0,636.0 T 190.0,702.5 T 290.0,726.0 Q 344.0,726.0  390.0,702.5 T 463.0,636.0 T 490.0,537.0 Q 490.0,482.0  460.0,437.5 T 383.0,377.0  L383.0 375.0Q 442.0,358.0  479.5,307.0 T 517.0,186.0 Z M290.0 406.0Q 345.0,406.0  382.5,442.0 T 420.0,533.0 Q 420.0,590.0  383.0,627.5 T 290.0,665.0 Q 234.0,665.0  197.0,627.5 T 160.0,533.0 Q 160.0,478.0  197.5,442.0 T 290.0,406.0 Z M290.0 43.0Q 359.0,43.0  402.0,86.0 T 445.0,194.0 Q 445.0,258.0  402.0,300.0 T 290.0,342.0 Q 221.0,342.0  178.0,300.0 T 135.0,194.0 Q 135.0,129.0  178.0,86.0 T 290.0,43.0 Z"></path>
+                </defs>
+                <use x="1480.0" y="0" xlink:href="#g56/TT1" />
+                <use x="2060.0" y="0" xlink:href="#g50/TT1" />
+            </g>
+            <text x="308.52" y="264.68" font-size="9.0pt" font-family="Avenir Next" fill="#b0b8c3" text-anchor="start" opacity="0">
+ 42-82</text>
+            <defs>
+                <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#006cab" stop-opacity="1.0"></stop>
+                    <stop offset="5%" stop-color="#0078bf" stop-opacity="1.0"></stop>
+                    <stop offset="95%" stop-color="#0078bf" stop-opacity="1.0"></stop>
+                    <stop offset="100%" stop-color="#006cab" stop-opacity="1.0"></stop>
+                </linearGradient>
+            </defs>
+            <rect x="295.52" y="270.57" width="9.0" height="9.0" fill="url(#gradient3)"></rect>
+            <g fill="#b0b8c3" stroke="#b0b8c3" transform="translate(308.52 279.38) scale(0.012 -0.012)">
+                <use x="0" y="0" xlink:href="#g56/TT1" />
+                <defs>
+                    <path id="g51/TT1" d="M245.0 402.0Q 319.0,402.0  364.5,433.5 T 410.0,532.0 Q 410.0,590.0  369.0,627.5 T 270.0,665.0 Q 226.0,665.0  191.0,643.5 T 135.0,582.0  L74.0 614.0Q 106.0,670.0  157.0,698.0 T 274.0,726.0 Q 331.0,726.0  378.0,703.5 T 453.0,638.0 T 481.0,536.0 Q 481.0,475.0  446.5,432.0 T 358.0,374.0  L358.0 372.0Q 421.0,359.0  461.0,312.0 T 501.0,196.0 Q 501.0,131.0  470.0,82.5 T 387.0,8.0 T 273.0,-18.0 Q 196.0,-18.0  137.5,19.5 T 49.0,127.0  L117.0 152.0Q 135.0,102.0  177.0,73.0 T 273.0,44.0 Q 314.0,44.0  350.0,62.5 T 407.5,115.5 T 429.0,196.0 Q 429.0,271.0  376.0,305.5 T 245.0,340.0  L214.0 340.0 L214.0 402.0 L245.0 402.0Z"></path>
+                </defs>
+                <use x="580.0" y="0" xlink:href="#g51/TT1" />
+                <use x="1160.0" y="0" xlink:href="#g45/TT1" />
+                <use x="1480.0" y="0" xlink:href="#g49/TT1" />
+                <use x="2060.0" y="0" xlink:href="#g50/TT1" />
+                <use x="2640.0" y="0" xlink:href="#g51/TT1" />
+            </g>
+            <text x="308.52" y="279.38" font-size="9.0pt" font-family="Avenir Next" fill="#b0b8c3" text-anchor="start" opacity="0">
+ 83-123</text>
+            <defs>
+                <linearGradient id="gradient4" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#015f96" stop-opacity="1.0"></stop>
+                    <stop offset="5%" stop-color="#0169a7" stop-opacity="1.0"></stop>
+                    <stop offset="95%" stop-color="#0169a7" stop-opacity="1.0"></stop>
+                    <stop offset="100%" stop-color="#015f96" stop-opacity="1.0"></stop>
+                </linearGradient>
+            </defs>
+            <rect x="295.52" y="285.27" width="9.0" height="9.0" fill="url(#gradient4)"></rect>
+            <g fill="#b0b8c3" stroke="#b0b8c3" transform="translate(308.52 294.08) scale(0.012 -0.012)">
+                <use x="0" y="0" xlink:href="#g49/TT1" />
+                <use x="580.0" y="0" xlink:href="#g50/TT1" />
+                <use x="1160.0" y="0" xlink:href="#g52/TT1" />
+                <use x="1740.0" y="0" xlink:href="#g45/TT1" />
+                <use x="2060.0" y="0" xlink:href="#g49/TT1" />
+                <defs>
+                    <path id="g54/TT1" d="M203.0 397.0Q 218.0,409.0  247.0,416.0 T 304.0,423.0 Q 365.0,423.0  414.5,395.5 T 492.0,318.0 T 520.0,205.0 Q 520.0,140.0  490.5,89.5 T 408.5,10.5 T 290.0,-18.0 Q 224.0,-18.0  171.5,10.5 T 89.5,89.5 T 60.0,205.0 Q 60.0,255.0  77.0,301.5 T 124.0,397.0  L317.0 708.0 L400.0 708.0 L201.0 399.0 L203.0 397.0Z M290.0 43.0Q 336.0,43.0  372.0,64.0 T 428.0,122.0 T 448.0,205.0 Q 448.0,275.0  405.0,320.0 T 290.0,365.0 Q 218.0,365.0  175.0,320.0 T 132.0,205.0 Q 132.0,159.0  152.0,122.0 T 208.0,64.0 T 244.0,43.0 Z"></path>
+                </defs>
+                <use x="2640.0" y="0" xlink:href="#g54/TT1" />
+                <use x="3220.0" y="0" xlink:href="#g52/TT1" />
+            </g>
+            <text x="308.52" y="294.08" font-size="9.0pt" font-family="Avenir Next" fill="#b0b8c3" text-anchor="start" opacity="0">
+ 124-164</text>
+            <defs>
+                <linearGradient id="gradient5" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#084466" stop-opacity="1.0"></stop>
+                    <stop offset="5%" stop-color="#084c72" stop-opacity="1.0"></stop>
+                    <stop offset="95%" stop-color="#084c72" stop-opacity="1.0"></stop>
+                    <stop offset="100%" stop-color="#084466" stop-opacity="1.0"></stop>
+                </linearGradient>
+            </defs>
+            <rect x="295.52" y="299.97" width="9.0" height="9.0" fill="url(#gradient5)"></rect>
+            <g fill="#b0b8c3" stroke="#b0b8c3" transform="translate(308.52 308.78) scale(0.012 -0.012)">
+                <use x="0" y="0" xlink:href="#g49/TT1" />
+                <use x="580.0" y="0" xlink:href="#g54/TT1" />
+                <defs>
+                    <path id="g53/TT1" d="M180.0 644.0 L175.0 425.0Q 219.0,441.0  273.0,441.0 Q 339.0,441.0  391.5,413.0 T 473.5,334.5 T 503.0,219.0 Q 503.0,151.0  473.5,97.0 T 390.5,12.5 T 268.0,-18.0 Q 194.0,-18.0  140.0,16.0 T 56.0,111.0  L121.0 140.0Q 140.0,96.0  179.0,70.0 T 264.0,44.0 Q 311.0,44.0  349.0,66.0 T 408.5,126.5 T 430.0,212.0 Q 430.0,289.0  380.5,335.5 T 254.0,382.0 Q 180.0,382.0  107.0,343.0  L114.0 708.0 L475.0 708.0 L475.0 644.0 L180.0 644.0Z"></path>
+                </defs>
+                <use x="1160.0" y="0" xlink:href="#g53/TT1" />
+                <use x="1740.0" y="0" xlink:href="#g45/TT1" />
+                <use x="2060.0" y="0" xlink:href="#g50/TT1" />
+                <use x="2640.0" y="0" xlink:href="#g48/TT1" />
+                <use x="3220.0" y="0" xlink:href="#g52/TT1" />
+            </g>
+            <text x="308.52" y="308.78" font-size="9.0pt" font-family="Avenir Next" fill="#b0b8c3" text-anchor="start" opacity="0">
+ 165-204</text>
+            <defs>
+                <linearGradient id="gradient6" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#ab0a00" stop-opacity="1.0"></stop>
+                    <stop offset="5%" stop-color="#bf0c00" stop-opacity="1.0"></stop>
+                    <stop offset="95%" stop-color="#bf0c00" stop-opacity="1.0"></stop>
+                    <stop offset="100%" stop-color="#ab0a00" stop-opacity="1.0"></stop>
+                </linearGradient>
+            </defs>
+            <rect x="295.52" y="314.67" width="9.0" height="9.0" fill="url(#gradient6)"></rect>
+            <g fill="#b0b8c3" stroke="#b0b8c3" transform="translate(308.52 323.48) scale(0.012 -0.012)">
+                <defs>
+                    <path id="g62/TT1" d="M78.0 564.0 L588.0 326.0 L588.0 280.0 L78.0 42.0 L78.0 102.0 L507.0 303.0 L78.0 504.0 L78.0 564.0Z"></path>
+                </defs>
+                <use x="0" y="0" xlink:href="#g62/TT1" />
+                <use x="666.0" y="0" xlink:href="#g50/TT1" />
+                <use x="1246.0" y="0" xlink:href="#g48/TT1" />
+                <use x="1826.0" y="0" xlink:href="#g52/TT1" />
+            </g>
+            <text x="308.52" y="323.48" font-size="9.0pt" font-family="Avenir Next" fill="#b0b8c3" text-anchor="start" opacity="0">
+ &gt;204</text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,630 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1040" height="500" viewBox="0 0 1040 500">
+<rect x="0" y="0" width="1040" height="500" fill="#103052">
+</rect>
+<g>
+<rect x="0" y="0" rx="5" ry="5" width="1040.0" height="500.0" fill="#011e33" opacity="0">
+</rect>
+<g transform=" translate(16.0 -16.0)">
+<defs>
+<clipPath id="ClipPath0">
+<rect x="32" y="61" width="978" height="422">
+</rect>
+</clipPath>
+</defs>
+<g clip-path="url(#ClipPath0)">
+<defs>
+<clipPath id="ClipPath1">
+<rect x="32" y="64" width="975" height="419">
+</rect>
+</clipPath>
+</defs>
+<g clip-path="url(#ClipPath1)">
+<defs>
+<linearGradient id="gradient0" x1="0%" y1="100%" x2="0%" y2="0%">
+<stop offset="0%" stop-color="#dd5757" stop-opacity="0.08">
+</stop>
+<stop offset="100%" stop-color="#dd5757" stop-opacity="1.0">
+</stop>
+</linearGradient>
+</defs>
+<polygon id="Polygon_11" points="38.0,476.61  71.21,476.61  137.62,476.21  170.83,475.82  204.03,475.82  237.24,475.62  270.45,475.03  303.66,474.05  336.86,472.27  370.07,469.91  403.28,467.15  436.48,461.24  469.69,456.51  502.9,451.78  536.1,442.72  569.31,433.46  602.52,426.17  635.72,408.25  668.93,384.8  702.14,363.13  735.34,348.56  768.55,317.63  801.76,275.08  834.97,244.15  868.17,192.93  901.38,143.48  934.59,70.0  934.59,477.0  901.38,477.0  868.17,477.0  834.97,477.0  801.76,477.0  768.55,477.0  735.34,477.0  702.14,477.0  668.93,477.0  635.72,477.0  602.52,477.0  569.31,477.0  536.1,477.0  502.9,477.0  469.69,477.0  436.48,477.0  403.28,477.0  370.07,477.0  336.86,477.0  303.66,477.0  270.45,477.0  237.24,477.0  204.03,477.0  170.83,477.0  137.62,477.0  71.21,477.0  38.0,477.0 " fill="url(#gradient0)">
+</polygon>
+<polyline points="38.0,476.61  71.21,476.61  137.62,476.21  170.83,475.82  204.03,475.82  237.24,475.62  270.45,475.03  303.66,474.05  336.86,472.27  370.07,469.91  403.28,467.15  436.48,461.24  469.69,456.51  502.9,451.78  536.1,442.72  569.31,433.46  602.52,426.17  635.72,408.25  668.93,384.8  702.14,363.13  735.34,348.56  768.55,317.63  801.76,275.08  834.97,244.15  868.17,192.93  901.38,143.48  934.59,70.0 " fill="none" stroke="#dd5757" stroke-width="3.0">
+</polyline>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(43.5 467.72) scale(0.0133 -0.0133)">
+<defs>
+<path id="g50/TT0" d="M51.0 0 L51.0 75.0 L341.0 368.0Q 380.0,408.0  403.0,447.0 T 426.0,530.0 Q 426.0,590.0  385.5,627.5 T 286.0,665.0 Q 230.0,665.0  191.0,630.0 T 140.0,539.0  L69.0 553.0Q 84.0,629.0  144.0,677.5 T 286.0,726.0 Q 344.0,726.0  392.5,703.5 T 470.0,637.0 T 499.0,531.0 Q 499.0,469.0  470.0,421.5 T 384.0,317.0  L129.0 64.0 L504.0 64.0 L504.0 0 L51.0 0Z">
+</path>
+</defs>
+<use x="0" y="0" xlink:href="#g50/TT0"/>
+</g>
+<text x="43.5" y="467.72" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 2</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(76.71 467.72) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g50/TT0"/>
+</g>
+<text x="76.71" y="467.72" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 2</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(143.12 467.33) scale(0.0133 -0.0133)">
+<defs>
+<path id="g52/TT0" d="M436.0 234.0 L540.0 234.0 L540.0 171.0 L436.0 171.0 L436.0 0 L366.0 0 L366.0 171.0 L42.0 171.0 L42.0 241.0 L342.0 708.0 L436.0 708.0 L436.0 234.0Z M366.0 627.0 L364.0 627.0 L117.0 234.0 L366.0 234.0 L366.0 627.0Z">
+</path>
+</defs>
+<use x="0" y="0" xlink:href="#g52/TT0"/>
+</g>
+<text x="143.12" y="467.33" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 4</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(176.33 466.93) scale(0.0133 -0.0133)">
+<defs>
+<path id="g54/TT0" d="M203.0 397.0Q 218.0,409.0  247.0,416.0 T 304.0,423.0 Q 365.0,423.0  414.5,395.5 T 492.0,318.0 T 520.0,205.0 Q 520.0,140.0  490.5,89.5 T 408.5,10.5 T 290.0,-18.0 Q 224.0,-18.0  171.5,10.5 T 89.5,89.5 T 60.0,205.0 Q 60.0,255.0  77.0,301.5 T 124.0,397.0  L317.0 708.0 L400.0 708.0 L201.0 399.0 L203.0 397.0Z M290.0 43.0Q 336.0,43.0  372.0,64.0 T 428.0,122.0 T 448.0,205.0 Q 448.0,275.0  405.0,320.0 T 290.0,365.0 Q 218.0,365.0  175.0,320.0 T 132.0,205.0 Q 132.0,159.0  152.0,122.0 T 208.0,64.0 T 244.0,43.0 Z">
+</path>
+</defs>
+<use x="0" y="0" xlink:href="#g54/TT0"/>
+</g>
+<text x="176.33" y="466.93" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 6</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(209.53 466.93) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g54/TT0"/>
+</g>
+<text x="209.53" y="466.93" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 6</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(242.74 466.73) scale(0.0133 -0.0133)">
+<defs>
+<path id="g55/TT0" d="M498.0 642.0 L213.0 0 L132.0 0 L425.0 644.0 L78.0 644.0 L78.0 708.0 L498.0 708.0 L498.0 642.0Z">
+</path>
+</defs>
+<use x="0" y="0" xlink:href="#g55/TT0"/>
+</g>
+<text x="242.74" y="466.73" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 7</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(275.95 466.14) scale(0.0133 -0.0133)">
+<defs>
+<path id="g49/TT0" d="M358.0 0 L286.0 0 L286.0 619.0 L158.0 510.0 L114.0 560.0 L294.0 708.0 L358.0 708.0 L358.0 0Z">
+</path>
+</defs>
+<use x="0" y="0" xlink:href="#g49/TT0"/>
+<defs>
+<path id="g48/TT0" d="M522.0 353.0Q 522.0,195.0  467.0,88.5 T 290.0,-18.0 Q 167.0,-18.0  112.5,88.5 T 58.0,353.0 Q 58.0,512.0  112.5,619.0 T 290.0,726.0 Q 412.0,726.0  467.0,618.5 T 522.0,353.0 Z M131.0 353.0Q 131.0,226.0  167.5,135.0 T 290.0,44.0 Q 375.0,44.0  412.0,135.5 T 449.0,353.0 Q 449.0,480.0  412.0,572.5 T 290.0,665.0 Q 204.0,665.0  167.5,573.0 T 131.0,353.0 Z">
+</path>
+</defs>
+<use x="580.0" y="0" xlink:href="#g48/TT0"/>
+</g>
+<text x="275.95" y="466.14" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 10</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(309.16 465.16) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g49/TT0"/>
+<defs>
+<path id="g53/TT0" d="M180.0 644.0 L175.0 425.0Q 219.0,441.0  273.0,441.0 Q 339.0,441.0  391.5,413.0 T 473.5,334.5 T 503.0,219.0 Q 503.0,151.0  473.5,97.0 T 390.5,12.5 T 268.0,-18.0 Q 194.0,-18.0  140.0,16.0 T 56.0,111.0  L121.0 140.0Q 140.0,96.0  179.0,70.0 T 264.0,44.0 Q 311.0,44.0  349.0,66.0 T 408.5,126.5 T 430.0,212.0 Q 430.0,289.0  380.5,335.5 T 254.0,382.0 Q 180.0,382.0  107.0,343.0  L114.0 708.0 L475.0 708.0 L475.0 644.0 L180.0 644.0Z">
+</path>
+</defs>
+<use x="580.0" y="0" xlink:href="#g53/TT0"/>
+</g>
+<text x="309.16" y="465.16" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 15</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(342.36 463.39) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g50/TT0"/>
+<use x="580.0" y="0" xlink:href="#g52/TT0"/>
+</g>
+<text x="342.36" y="463.39" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 24</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(375.57 461.02) scale(0.0133 -0.0133)">
+<defs>
+<path id="g51/TT0" d="M245.0 402.0Q 319.0,402.0  364.5,433.5 T 410.0,532.0 Q 410.0,590.0  369.0,627.5 T 270.0,665.0 Q 226.0,665.0  191.0,643.5 T 135.0,582.0  L74.0 614.0Q 106.0,670.0  157.0,698.0 T 274.0,726.0 Q 331.0,726.0  378.0,703.5 T 453.0,638.0 T 481.0,536.0 Q 481.0,475.0  446.5,432.0 T 358.0,374.0  L358.0 372.0Q 421.0,359.0  461.0,312.0 T 501.0,196.0 Q 501.0,131.0  470.0,82.5 T 387.0,8.0 T 273.0,-18.0 Q 196.0,-18.0  137.5,19.5 T 49.0,127.0  L117.0 152.0Q 135.0,102.0  177.0,73.0 T 273.0,44.0 Q 314.0,44.0  350.0,62.5 T 407.5,115.5 T 429.0,196.0 Q 429.0,271.0  376.0,305.5 T 245.0,340.0  L214.0 340.0 L214.0 402.0 L245.0 402.0Z">
+</path>
+</defs>
+<use x="0" y="0" xlink:href="#g51/TT0"/>
+<use x="580.0" y="0" xlink:href="#g54/TT0"/>
+</g>
+<text x="375.57" y="461.02" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 36</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(408.78 458.26) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g53/TT0"/>
+<use x="580.0" y="0" xlink:href="#g48/TT0"/>
+</g>
+<text x="408.78" y="458.26" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 50</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(441.98 452.35) scale(0.0133 -0.0133)">
+<defs>
+<path id="g56/TT0" d="M517.0 186.0Q 517.0,126.0  486.0,79.5 T 403.0,7.5 T 290.0,-18.0 Q 229.0,-18.0  177.0,7.5 T 94.0,79.5 T 63.0,186.0 Q 63.0,256.0  100.5,306.5 T 197.0,375.0  L197.0 377.0Q 150.0,393.0  120.0,437.5 T 90.0,537.0 Q 90.0,593.0  117.0,636.0 T 190.0,702.5 T 290.0,726.0 Q 344.0,726.0  390.0,702.5 T 463.0,636.0 T 490.0,537.0 Q 490.0,482.0  460.0,437.5 T 383.0,377.0  L383.0 375.0Q 442.0,358.0  479.5,307.0 T 517.0,186.0 Z M290.0 406.0Q 345.0,406.0  382.5,442.0 T 420.0,533.0 Q 420.0,590.0  383.0,627.5 T 290.0,665.0 Q 234.0,665.0  197.0,627.5 T 160.0,533.0 Q 160.0,478.0  197.5,442.0 T 290.0,406.0 Z M290.0 43.0Q 359.0,43.0  402.0,86.0 T 445.0,194.0 Q 445.0,258.0  402.0,300.0 T 290.0,342.0 Q 221.0,342.0  178.0,300.0 T 135.0,194.0 Q 135.0,129.0  178.0,86.0 T 290.0,43.0 Z">
+</path>
+</defs>
+<use x="0" y="0" xlink:href="#g56/TT0"/>
+<use x="580.0" y="0" xlink:href="#g48/TT0"/>
+</g>
+<text x="441.98" y="452.35" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 80</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(475.19 447.63) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g49/TT0"/>
+<use x="580.0" y="0" xlink:href="#g48/TT0"/>
+<use x="1160.0" y="0" xlink:href="#g52/TT0"/>
+</g>
+<text x="475.19" y="447.63" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 104</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(508.4 442.9) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g49/TT0"/>
+<use x="580.0" y="0" xlink:href="#g50/TT0"/>
+<use x="1160.0" y="0" xlink:href="#g56/TT0"/>
+</g>
+<text x="508.4" y="442.9" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 128</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(541.6 433.84) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g49/TT0"/>
+<use x="580.0" y="0" xlink:href="#g55/TT0"/>
+<use x="1160.0" y="0" xlink:href="#g52/TT0"/>
+</g>
+<text x="541.6" y="433.84" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 174</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(574.81 424.58) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g50/TT0"/>
+<use x="580.0" y="0" xlink:href="#g50/TT0"/>
+<use x="1160.0" y="0" xlink:href="#g49/TT0"/>
+</g>
+<text x="574.81" y="424.58" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 221</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(608.02 417.29) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g50/TT0"/>
+<use x="580.0" y="0" xlink:href="#g53/TT0"/>
+<use x="1160.0" y="0" xlink:href="#g56/TT0"/>
+</g>
+<text x="608.02" y="417.29" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 258</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(641.22 399.36) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g51/TT0"/>
+<use x="580.0" y="0" xlink:href="#g52/TT0"/>
+<defs>
+<path id="g57/TT0" d="M379.0 311.0Q 364.0,299.0  335.0,292.0 T 278.0,285.0 Q 217.0,285.0  167.5,312.5 T 90.0,390.0 T 62.0,503.0 Q 62.0,568.0  91.5,618.5 T 173.5,697.5 T 292.0,726.0 Q 358.0,726.0  410.5,697.5 T 492.5,618.5 T 522.0,503.0 Q 522.0,453.0  505.0,406.5 T 458.0,311.0  L265.0 0 L182.0 0 L381.0 309.0 L379.0 311.0Z M292.0 665.0Q 246.0,665.0  210.0,644.0 T 154.0,586.0 T 134.0,503.0 Q 134.0,433.0  177.0,388.0 T 292.0,343.0 Q 364.0,343.0  407.0,388.0 T 450.0,503.0 Q 450.0,549.0  430.0,586.0 T 374.0,644.0 T 338.0,665.0 Z">
+</path>
+</defs>
+<use x="1160.0" y="0" xlink:href="#g57/TT0"/>
+</g>
+<text x="641.22" y="399.36" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 349</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(674.43 375.92) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g52/TT0"/>
+<use x="580.0" y="0" xlink:href="#g54/TT0"/>
+<use x="1160.0" y="0" xlink:href="#g56/TT0"/>
+</g>
+<text x="674.43" y="375.92" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 468</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(707.64 354.25) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g53/TT0"/>
+<use x="580.0" y="0" xlink:href="#g55/TT0"/>
+<use x="1160.0" y="0" xlink:href="#g56/TT0"/>
+</g>
+<text x="707.64" y="354.25" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 578</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(740.84 339.67) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g54/TT0"/>
+<use x="580.0" y="0" xlink:href="#g53/TT0"/>
+<use x="1160.0" y="0" xlink:href="#g50/TT0"/>
+</g>
+<text x="740.84" y="339.67" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 652</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(774.05 308.74) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g56/TT0"/>
+<use x="580.0" y="0" xlink:href="#g48/TT0"/>
+<use x="1160.0" y="0" xlink:href="#g57/TT0"/>
+</g>
+<text x="774.05" y="308.74" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 809</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(807.26 266.19) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g49/TT0"/>
+<use x="580.0" y="0" xlink:href="#g48/TT0"/>
+<use x="1160.0" y="0" xlink:href="#g50/TT0"/>
+<use x="1740.0" y="0" xlink:href="#g53/TT0"/>
+</g>
+<text x="807.26" y="266.19" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 1025</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(873.67 184.04) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g49/TT0"/>
+<use x="580.0" y="0" xlink:href="#g52/TT0"/>
+<use x="1160.0" y="0" xlink:href="#g52/TT0"/>
+<use x="1740.0" y="0" xlink:href="#g50/TT0"/>
+</g>
+<text x="873.67" y="184.04" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" opacity="0">
+ 1442</text>
+<g fill="#dd5757" stroke="#dd5757" transform="translate(940.09 88.45) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g50/TT0"/>
+<use x="580.0" y="0" xlink:href="#g48/TT0"/>
+<use x="1160.0" y="0" xlink:href="#g54/TT0"/>
+<use x="1740.0" y="0" xlink:href="#g54/TT0"/>
+</g>
+<text x="940.09" y="88.45" font-size="10.0pt" font-family="Avenir Next" fill="#dd5757" text-anchor="start" opacity="0">
+ 2066</text>
+<defs>
+<linearGradient id="gradient1" x1="0%" y1="100%" x2="0%" y2="0%">
+<stop offset="0%" stop-color="#33a3ff" stop-opacity="0.08">
+</stop>
+<stop offset="100%" stop-color="#33a3ff" stop-opacity="1.0">
+</stop>
+</linearGradient>
+</defs>
+<polygon id="Polygon_11" points="71.21,477.0  137.62,477.0  170.83,477.0  204.03,477.0  204.03,476.8  237.24,476.8  270.45,476.8  303.66,476.8  336.86,476.8  370.07,476.61  403.28,476.61  436.48,476.41  469.69,476.02  502.9,475.82  536.1,475.23  569.31,475.03  602.52,474.44  635.72,472.86  668.93,471.68  702.14,470.7  735.34,468.92  768.55,468.33  801.76,467.35  834.97,465.77  868.17,463.8  901.38,462.42  934.59,462.42  934.59,477.0  901.38,477.0  868.17,477.0  834.97,477.0  801.76,477.0  768.55,477.0  735.34,477.0  702.14,477.0  668.93,477.0  635.72,477.0  602.52,477.0  569.31,477.0  536.1,477.0  502.9,477.0  469.69,477.0  436.48,477.0  403.28,477.0  370.07,477.0  336.86,477.0  303.66,477.0  270.45,477.0  237.24,477.0  204.03,477.0  204.03,477.0  170.83,477.0  170.83,477.0  137.62,477.0  137.62,477.0  71.21,477.0  71.21,477.0 " fill="url(#gradient1)">
+</polygon>
+<polyline fill="none" stroke="#2c8ad6" stroke-width="3.0">
+</polyline>
+<polyline fill="none" stroke="#2c8ad6" stroke-width="3.0">
+</polyline>
+<polyline fill="none" stroke="#2c8ad6" stroke-width="3.0">
+</polyline>
+<polyline fill="none" stroke="#2c8ad6" stroke-width="3.0">
+</polyline>
+<polyline points="204.03,476.8  237.24,476.8  270.45,476.8  303.66,476.8  336.86,476.8  370.07,476.61  403.28,476.61  436.48,476.41  469.69,476.02  502.9,475.82  536.1,475.23  569.31,475.03  602.52,474.44  635.72,472.86  668.93,471.68  702.14,470.7  735.34,468.92  768.55,468.33  801.76,467.35  834.97,465.77  868.17,463.8  901.38,462.42  934.59,462.42 " fill="none" stroke="#2c8ad6" stroke-width="3.0">
+</polyline>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(209.53 467.92) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g49/TT0"/>
+</g>
+<text x="209.53" y="467.92" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 1</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(242.74 467.92) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g49/TT0"/>
+</g>
+<text x="242.74" y="467.92" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 1</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(275.95 467.92) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g49/TT0"/>
+</g>
+<text x="275.95" y="467.92" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 1</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(309.16 467.92) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g49/TT0"/>
+</g>
+<text x="309.16" y="467.92" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 1</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(342.36 467.92) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g49/TT0"/>
+</g>
+<text x="342.36" y="467.92" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 1</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(375.57 467.72) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g50/TT0"/>
+</g>
+<text x="375.57" y="467.72" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 2</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(408.78 467.72) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g50/TT0"/>
+</g>
+<text x="408.78" y="467.72" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 2</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(441.98 467.52) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g51/TT0"/>
+</g>
+<text x="441.98" y="467.52" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 3</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(475.19 467.13) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g53/TT0"/>
+</g>
+<text x="475.19" y="467.13" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 5</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(508.4 466.93) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g54/TT0"/>
+</g>
+<text x="508.4" y="466.93" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 6</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(541.6 466.34) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g57/TT0"/>
+</g>
+<text x="541.6" y="466.34" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 9</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(574.81 466.14) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g49/TT0"/>
+<use x="580.0" y="0" xlink:href="#g48/TT0"/>
+</g>
+<text x="574.81" y="466.14" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 10</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(608.02 465.55) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g49/TT0"/>
+<use x="580.0" y="0" xlink:href="#g51/TT0"/>
+</g>
+<text x="608.02" y="465.55" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 13</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(641.22 463.98) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g50/TT0"/>
+<use x="580.0" y="0" xlink:href="#g49/TT0"/>
+</g>
+<text x="641.22" y="463.98" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 21</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(674.43 462.79) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g50/TT0"/>
+<use x="580.0" y="0" xlink:href="#g55/TT0"/>
+</g>
+<text x="674.43" y="462.79" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 27</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(707.64 461.81) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g51/TT0"/>
+<use x="580.0" y="0" xlink:href="#g50/TT0"/>
+</g>
+<text x="707.64" y="461.81" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 32</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(740.84 460.04) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g52/TT0"/>
+<use x="580.0" y="0" xlink:href="#g49/TT0"/>
+</g>
+<text x="740.84" y="460.04" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 41</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(774.05 459.45) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g52/TT0"/>
+<use x="580.0" y="0" xlink:href="#g52/TT0"/>
+</g>
+<text x="774.05" y="459.45" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 44</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(807.26 458.46) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g52/TT0"/>
+<use x="580.0" y="0" xlink:href="#g57/TT0"/>
+</g>
+<text x="807.26" y="458.46" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 49</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(840.47 456.88) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g53/TT0"/>
+<use x="580.0" y="0" xlink:href="#g55/TT0"/>
+</g>
+<text x="840.47" y="456.88" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 57</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(873.67 454.91) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g54/TT0"/>
+<use x="580.0" y="0" xlink:href="#g55/TT0"/>
+</g>
+<text x="873.67" y="454.91" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 67</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(906.88 453.54) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g55/TT0"/>
+<use x="580.0" y="0" xlink:href="#g52/TT0"/>
+</g>
+<text x="906.88" y="453.54" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 74</text>
+<g fill="#2c8ad6" stroke="#2c8ad6" transform="translate(940.09 453.54) scale(0.0133 -0.0133)">
+<use x="0" y="0" xlink:href="#g55/TT0"/>
+<use x="580.0" y="0" xlink:href="#g52/TT0"/>
+</g>
+<text x="940.09" y="453.54" font-size="10.0pt" font-family="Avenir Next" fill="#2c8ad6" opacity="0">
+ 74</text>
+</g>
+<path d="M32.0 477.0L1007.0 477.0" stroke="#f9fafb" stroke-dasharray="1,2" fill="none" opacity="0.4">
+</path>
+<path d="M32.0 378.5L1007.0 378.5" stroke="#f9fafb" stroke-dasharray="1,2" fill="none" opacity="0.4">
+</path>
+<path d="M32.0 280.0L1007.0 280.0" stroke="#f9fafb" stroke-dasharray="1,2" fill="none" opacity="0.4">
+</path>
+<path d="M32.0 181.5L1007.0 181.5" stroke="#f9fafb" stroke-dasharray="1,2" fill="none" opacity="0.4">
+</path>
+<path d="M32.0 83.0L1007.0 83.0" stroke="#f9fafb" stroke-dasharray="1,2" fill="none" opacity="0.4">
+</path>
+<path d="M71.21 483.0L71.21 64.0" stroke="#f9fafb" stroke-dasharray="1,2" fill="none" opacity="0.4">
+</path>
+<path d="M303.66 483.0L303.66 64.0" stroke="#f9fafb" stroke-dasharray="1,2" fill="none" opacity="0.4">
+</path>
+<path d="M536.1 483.0L536.1 64.0" stroke="#f9fafb" stroke-dasharray="1,2" fill="none" opacity="0.4">
+</path>
+<path d="M768.55 483.0L768.55 64.0" stroke="#f9fafb" stroke-dasharray="1,2" fill="none" opacity="0.4">
+</path>
+<path d="M1001.0 483.0L1001.0 64.0" stroke="#f9fafb" stroke-dasharray="1,2" fill="none" opacity="0.4">
+</path>
+</g>
+<defs>
+<clipPath id="ClipPath2">
+<rect x="0" y="64" width="32" height="419">
+</rect>
+</clipPath>
+</defs>
+<g clip-path="url(#ClipPath2)">
+<g fill="#b0b8c3" stroke="#b0b8c3" transform="translate(20.04 480.3) scale(0.012 -0.012)">
+<use x="0" y="0" xlink:href="#g48/TT0"/>
+</g>
+<text id="Text_67" x="27.0" y="480.3" font-size="9.0pt" font-family="Avenir Next" fill="#b0b8c3" text-anchor="end" opacity="0">
+ 0</text>
+<g fill="#b0b8c3" stroke="#b0b8c3" transform="translate(6.12 382.8) scale(0.012 -0.012)">
+<use x="0" y="0" xlink:href="#g53/TT0"/>
+<use x="580.0" y="0" xlink:href="#g48/TT0"/>
+<use x="1160.0" y="0" xlink:href="#g48/TT0"/>
+</g>
+<text id="Text_68" x="27.0" y="382.8" font-size="9.0pt" font-family="Avenir Next" fill="#b0b8c3" text-anchor="end" opacity="0">
+ 500</text>
+<g fill="#b0b8c3" stroke="#b0b8c3" transform="translate(-0.84 284.3) scale(0.012 -0.012)">
+<use x="0" y="0" xlink:href="#g49/TT0"/>
+<use x="580.0" y="0" xlink:href="#g48/TT0"/>
+<use x="1160.0" y="0" xlink:href="#g48/TT0"/>
+<use x="1740.0" y="0" xlink:href="#g48/TT0"/>
+</g>
+<text id="Text_69" x="27.0" y="284.3" font-size="9.0pt" font-family="Avenir Next" fill="#b0b8c3" text-anchor="end" opacity="0">
+ 1000</text>
+<g fill="#b0b8c3" stroke="#b0b8c3" transform="translate(-0.84 185.8) scale(0.012 -0.012)">
+<use x="0" y="0" xlink:href="#g49/TT0"/>
+<use x="580.0" y="0" xlink:href="#g53/TT0"/>
+<use x="1160.0" y="0" xlink:href="#g48/TT0"/>
+<use x="1740.0" y="0" xlink:href="#g48/TT0"/>
+</g>
+<text id="Text_70" x="27.0" y="185.8" font-size="9.0pt" font-family="Avenir Next" fill="#b0b8c3" text-anchor="end" opacity="0">
+ 1500</text>
+<g fill="#b0b8c3" stroke="#b0b8c3" transform="translate(-0.84 87.3) scale(0.012 -0.012)">
+<use x="0" y="0" xlink:href="#g50/TT0"/>
+<use x="580.0" y="0" xlink:href="#g48/TT0"/>
+<use x="1160.0" y="0" xlink:href="#g48/TT0"/>
+<use x="1740.0" y="0" xlink:href="#g48/TT0"/>
+</g>
+<text id="Text_71" x="27.0" y="87.3" font-size="9.0pt" font-family="Avenir Next" fill="#b0b8c3" text-anchor="end" opacity="0">
+ 2000</text>
+</g>
+<defs>
+<clipPath id="ClipPath3">
+<rect x="32" y="483" width="975" height="17">
+</rect>
+</clipPath>
+</defs>
+<g clip-path="url(#ClipPath3)">
+<g fill="#b0b8c3" stroke="#b0b8c3" transform="translate(40.21 497.65) scale(0.012 -0.012)">
+<use x="0" y="0" xlink:href="#g48/TT0"/>
+<use x="580.0" y="0" xlink:href="#g49/TT0"/>
+<defs>
+<path id="g77/TT0" d="M444.0 122.0 L445.0 122.0 L682.0 708.0 L792.0 708.0 L792.0 0 L720.0 0 L720.0 615.0 L718.0 615.0 L462.0 0 L424.0 0 L168.0 615.0 L166.0 615.0 L166.0 0 L94.0 0 L94.0 708.0 L204.0 708.0 L444.0 122.0Z">
+</path>
+</defs>
+<use x="1160.0" y="0" xlink:href="#g77/TT0"/>
+<defs>
+<path id="g97/TT0" d="M260.0 423.0Q 220.0,423.0  183.0,408.0 T 121.0,368.0  L83.0 413.0Q 113.0,443.0  161.0,461.5 T 267.0,480.0 Q 347.0,480.0  398.0,436.0 T 449.0,310.0  L449.0 105.0Q 449.0,42.0  457.0,0  L396.0 0Q 389.0,40.0  389.0,76.0  L387.0 76.0Q 355.0,30.0  314.5,9.0 T 217.0,-12.0 Q 178.0,-12.0  141.0,2.5 T 79.5,49.0 T 55.0,130.0 Q 55.0,198.0  99.0,232.0 T 212.5,276.5 T 385.0,287.0  L385.0 302.0Q 385.0,362.0  353.0,392.5 T 260.0,423.0 Z M125.0 133.0Q 125.0,87.0  157.0,65.5 T 235.0,44.0 Q 304.0,44.0  344.5,89.0 T 385.0,199.0  L385.0 234.0 L365.0 234.0Q 259.0,234.0  192.0,213.5 T 125.0,133.0 Z">
+</path>
+</defs>
+<use x="2046.0" y="0" xlink:href="#g97/TT0"/>
+<defs>
+<path id="g114/TT0" d="M86.0 468.0 L151.0 468.0Q 155.0,418.0  155.0,388.0  L157.0 388.0Q 177.0,429.0  217.5,454.5 T 307.0,480.0 Q 334.0,480.0  352.0,475.0  L343.0 411.0Q 337.0,413.0  322.5,415.0 T 295.0,417.0 Q 236.0,417.0  197.0,372.5 T 158.0,240.0  L158.0 0 L90.0 0 L90.0 365.0Q 90.0,425.0  86.0,468.0 Z">
+</path>
+</defs>
+<use x="2580.0" y="0" xlink:href="#g114/TT0"/>
+<use x="2940.0" y="0" xlink:href="#g50/TT0"/>
+<use x="3520.0" y="0" xlink:href="#g48/TT0"/>
+<use x="4100.0" y="0" xlink:href="#g50/TT0"/>
+<use x="4680.0" y="0" xlink:href="#g48/TT0"/>
+</g>
+<text id="Text_73" x="71.21" y="497.65" font-size="9.0pt" font-family="Avenir Next" fill="#b0b8c3" text-anchor="middle" opacity="0">
+ 01Mar2020</text>
+<g fill="#b0b8c3" stroke="#b0b8c3" transform="translate(272.66 497.65) scale(0.012 -0.012)">
+<use x="0" y="0" xlink:href="#g48/TT0"/>
+<use x="580.0" y="0" xlink:href="#g56/TT0"/>
+<use x="1160.0" y="0" xlink:href="#g77/TT0"/>
+<use x="2046.0" y="0" xlink:href="#g97/TT0"/>
+<use x="2580.0" y="0" xlink:href="#g114/TT0"/>
+<use x="2940.0" y="0" xlink:href="#g50/TT0"/>
+<use x="3520.0" y="0" xlink:href="#g48/TT0"/>
+<use x="4100.0" y="0" xlink:href="#g50/TT0"/>
+<use x="4680.0" y="0" xlink:href="#g48/TT0"/>
+</g>
+<text id="Text_74" x="303.66" y="497.65" font-size="9.0pt" font-family="Avenir Next" fill="#b0b8c3" text-anchor="middle" opacity="0">
+ 08Mar2020</text>
+<g fill="#b0b8c3" stroke="#b0b8c3" transform="translate(505.1 497.65) scale(0.012 -0.012)">
+<use x="0" y="0" xlink:href="#g49/TT0"/>
+<use x="580.0" y="0" xlink:href="#g53/TT0"/>
+<use x="1160.0" y="0" xlink:href="#g77/TT0"/>
+<use x="2046.0" y="0" xlink:href="#g97/TT0"/>
+<use x="2580.0" y="0" xlink:href="#g114/TT0"/>
+<use x="2940.0" y="0" xlink:href="#g50/TT0"/>
+<use x="3520.0" y="0" xlink:href="#g48/TT0"/>
+<use x="4100.0" y="0" xlink:href="#g50/TT0"/>
+<use x="4680.0" y="0" xlink:href="#g48/TT0"/>
+</g>
+<text id="Text_75" x="536.1" y="497.65" font-size="9.0pt" font-family="Avenir Next" fill="#b0b8c3" text-anchor="middle" opacity="0">
+ 15Mar2020</text>
+<g fill="#b0b8c3" stroke="#b0b8c3" transform="translate(737.55 497.65) scale(0.012 -0.012)">
+<use x="0" y="0" xlink:href="#g50/TT0"/>
+<use x="580.0" y="0" xlink:href="#g50/TT0"/>
+<use x="1160.0" y="0" xlink:href="#g77/TT0"/>
+<use x="2046.0" y="0" xlink:href="#g97/TT0"/>
+<use x="2580.0" y="0" xlink:href="#g114/TT0"/>
+<use x="2940.0" y="0" xlink:href="#g50/TT0"/>
+<use x="3520.0" y="0" xlink:href="#g48/TT0"/>
+<use x="4100.0" y="0" xlink:href="#g50/TT0"/>
+<use x="4680.0" y="0" xlink:href="#g48/TT0"/>
+</g>
+<text id="Text_76" x="768.55" y="497.65" font-size="9.0pt" font-family="Avenir Next" fill="#b0b8c3" text-anchor="middle" opacity="0">
+ 22Mar2020</text>
+<g fill="#b0b8c3" stroke="#b0b8c3" transform="translate(942.0 497.65) scale(0.012 -0.012)">
+<use x="0" y="0" xlink:href="#g50/TT0"/>
+<use x="580.0" y="0" xlink:href="#g57/TT0"/>
+<use x="1160.0" y="0" xlink:href="#g77/TT0"/>
+<use x="2046.0" y="0" xlink:href="#g97/TT0"/>
+<use x="2580.0" y="0" xlink:href="#g114/TT0"/>
+<use x="2940.0" y="0" xlink:href="#g50/TT0"/>
+<use x="3520.0" y="0" xlink:href="#g48/TT0"/>
+<use x="4100.0" y="0" xlink:href="#g50/TT0"/>
+<use x="4680.0" y="0" xlink:href="#g48/TT0"/>
+</g>
+<text id="Text_77" x="973.0" y="497.65" font-size="9.0pt" font-family="Avenir Next" fill="#b0b8c3" text-anchor="middle" opacity="0">
+ 29Mar2020</text>
+</g>
+</g>
+<g transform=" translate(16.0 -16.0)">
+</g>
+<g transform=" translate(16.0 -16.0)">
+</g>
+<g transform=" translate(16.0 -16.0)">
+<rect x="830.67" y="33.0" rx="5" ry="5" width="176.33" height="26.7" fill="#103052">
+</rect>
+<defs>
+<linearGradient id="gradient2" x1="0%" y1="100%" x2="0%" y2="0%">
+<stop offset="0%" stop-color="#dd5757" stop-opacity="1.0">
+</stop>
+<stop offset="100%" stop-color="#dd5757" stop-opacity="1.0">
+</stop>
+</linearGradient>
+</defs>
+<rect x="836.67" y="41.85" width="9.0" height="9.0" fill="url(#gradient2)">
+</rect>
+<g fill="#b0b8c3" stroke="#b0b8c3" transform="translate(849.67 50.65) scale(0.012 -0.012)">
+<defs>
+<path id="g67/TT0" d="M425.0 -18.0Q 319.0,-18.0  235.0,30.0 T 103.5,163.0 T 56.0,354.0 Q 56.0,460.0  104.0,545.0 T 236.5,678.0 T 425.0,726.0 Q 503.0,726.0  571.5,695.5 T 677.0,614.0  L617.0 570.0Q 592.0,608.0  540.5,635.5 T 426.0,663.0 Q 337.0,663.0  270.5,621.0 T 168.0,508.0 T 132.0,354.0 Q 132.0,271.0  168.0,200.0 T 271.0,87.0 T 426.0,45.0 Q 490.0,45.0  544.5,71.0 T 634.0,150.0  L690.0 114.0Q 652.0,56.0  583.5,19.0 T 425.0,-18.0 Z">
+</path>
+</defs>
+<use x="0" y="0" xlink:href="#g67/TT0"/>
+<defs>
+<path id="g79/TT0" d="M425.0 -18.0Q 321.0,-18.0  236.5,30.0 T 104.0,163.0 T 56.0,354.0 Q 56.0,460.0  104.0,545.0 T 236.5,678.0 T 425.0,726.0 Q 529.0,726.0  613.5,678.0 T 746.0,545.0 T 794.0,354.0 Q 794.0,248.0  746.0,163.0 T 613.5,30.0 T 529.0,-18.0 Z M425.0 663.0Q 337.0,663.0  270.5,621.0 T 168.0,508.0 T 132.0,354.0 Q 132.0,271.0  168.0,200.5 T 270.5,88.0 T 425.0,46.0 Q 513.0,46.0  579.5,88.0 T 682.0,200.5 T 718.0,354.0 Q 718.0,437.0  682.0,508.0 T 579.5,621.0 T 513.0,663.0 Z">
+</path>
+</defs>
+<use x="720.0" y="0" xlink:href="#g79/TT0"/>
+<defs>
+<path id="g86/TT0" d="M311.0 93.0 L313.0 93.0 L543.0 708.0 L620.0 708.0 L349.0 0 L273.0 0 L3.0 708.0 L81.0 708.0 L311.0 93.0Z">
+</path>
+</defs>
+<use x="1570.0" y="0" xlink:href="#g86/TT0"/>
+<defs>
+<path id="g73/TT0" d="M166.0 0 L94.0 0 L94.0 708.0 L166.0 708.0 L166.0 0Z">
+</path>
+</defs>
+<use x="2193.0" y="0" xlink:href="#g73/TT0"/>
+<defs>
+<path id="g68/TT0" d="M329.0 708.0Q 421.0,708.0  507.0,667.5 T 647.0,546.5 T 701.0,354.0 Q 701.0,242.0  647.0,161.5 T 507.0,40.5 T 329.0,0  L94.0 0 L94.0 708.0 L329.0 708.0Z M309.0 64.0Q 411.0,64.0  482.5,105.0 T 589.5,212.0 T 625.0,354.0 Q 625.0,430.0  589.5,496.0 T 482.5,603.0 T 309.0,644.0  L166.0 644.0 L166.0 64.0 L309.0 64.0Z">
+</path>
+</defs>
+<use x="2453.0" y="0" xlink:href="#g68/TT0"/>
+<defs>
+<path id="g45/TT0" d="M272.0 214.0 L48.0 214.0 L48.0 271.0 L272.0 271.0 L272.0 214.0Z">
+</path>
+</defs>
+<use x="3210.0" y="0" xlink:href="#g45/TT0"/>
+<use x="3530.0" y="0" xlink:href="#g49/TT0"/>
+<use x="4110.0" y="0" xlink:href="#g57/TT0"/>
+<use x="4690.0" y="0" xlink:href="#g32/TT0"/>
+<use x="4940.0" y="0" xlink:href="#g67/TT0"/>
+<use x="5660.0" y="0" xlink:href="#g97/TT0"/>
+<defs>
+<path id="g115/TT0" d="M224.0 423.0Q 183.0,423.0  154.0,404.5 T 125.0,350.0 Q 125.0,318.0  151.0,300.0 T 237.0,270.0 Q 320.0,253.0  359.5,220.0 T 399.0,133.0 Q 399.0,59.0  347.5,23.5 T 223.0,-12.0 Q 167.0,-12.0  118.0,11.0 T 38.0,79.0  L92.0 119.0Q 111.0,87.0  146.5,66.5 T 222.0,46.0 Q 270.0,46.0  301.0,65.5 T 332.0,128.0 Q 332.0,163.0  299.5,182.0 T 194.0,218.0 Q 136.0,232.0  98.0,258.5 T 60.0,344.0 Q 60.0,411.0  108.5,445.5 T 227.0,480.0 Q 277.0,480.0  323.0,457.5 T 391.0,396.0  L339.0 357.0Q 324.0,387.0  293.0,405.0 T 224.0,423.0 Z">
+</path>
+</defs>
+<use x="6194.0" y="0" xlink:href="#g115/TT0"/>
+<defs>
+<path id="g101/TT0" d="M515.0 216.0 L127.0 216.0Q 128.0,169.0  150.5,130.5 T 212.0,69.0 T 298.0,46.0 Q 347.0,46.0  387.0,69.5 T 448.0,127.0  L499.0 87.0Q 421.0,-12.0  298.0,-12.0 Q 229.0,-12.0  174.0,20.0 T 87.5,108.0 T 56.0,234.0 Q 56.0,303.0  87.0,359.5 T 172.0,448.0 T 292.0,480.0 Q 363.0,480.0  413.5,449.5 T 490.0,366.0 T 516.0,248.0 Q 516.0,228.0  515.0,216.0 Z M292.0 423.0Q 248.0,423.0  211.5,402.0 T 153.0,345.5 T 128.0,270.0  L447.0 270.0Q 444.0,338.0  403.5,380.5 T 292.0,423.0 Z">
+</path>
+</defs>
+<use x="6638.0" y="0" xlink:href="#g101/TT0"/>
+<use x="7210.0" y="0" xlink:href="#g115/TT0"/>
+</g>
+<text x="849.67" y="50.65" font-size="9.0pt" font-family="Avenir Next" fill="#b0b8c3" text-anchor="start" opacity="0">
+ COVID-19 Cases</text>
+<defs>
+<linearGradient id="gradient3" x1="0%" y1="100%" x2="0%" y2="0%">
+<stop offset="0%" stop-color="#33a3ff" stop-opacity="1.0">
+</stop>
+<stop offset="100%" stop-color="#33a3ff" stop-opacity="1.0">
+</stop>
+</linearGradient>
+</defs>
+<rect x="949.52" y="41.85" width="9.0" height="9.0" fill="url(#gradient3)">
+</rect>
+<g fill="#b0b8c3" stroke="#b0b8c3" transform="translate(962.52 50.65) scale(0.012 -0.012)">
+<use x="0" y="0" xlink:href="#g68/TT0"/>
+<use x="757.0" y="0" xlink:href="#g101/TT0"/>
+<use x="1329.0" y="0" xlink:href="#g97/TT0"/>
+<defs>
+<path id="g116/TT0" d="M169.0 411.0 L169.0 138.0Q 169.0,89.0  187.0,70.5 T 239.0,52.0 Q 268.0,52.0  298.0,67.0  L301.0 8.0Q 264.0,-6.0  221.0,-6.0 Q 173.0,-6.0  137.0,22.0 T 101.0,119.0  L101.0 411.0 L4.0 411.0 L4.0 468.0 L101.0 468.0 L101.0 600.0 L169.0 600.0 L169.0 468.0 L301.0 468.0 L301.0 411.0 L169.0 411.0Z">
+</path>
+</defs>
+<use x="1863.0" y="0" xlink:href="#g116/TT0"/>
+<defs>
+<path id="g104/TT0" d="M319.0 480.0Q 406.0,480.0  451.5,428.0 T 497.0,287.0  L497.0 0 L429.0 0 L429.0 259.0Q 429.0,338.0  400.5,380.5 T 302.0,423.0 Q 264.0,423.0  232.0,402.5 T 180.0,341.0 T 160.0,240.0  L160.0 0 L92.0 0 L92.0 756.0 L160.0 756.0 L160.0 391.0 L162.0 391.0Q 180.0,431.0  224.5,455.5 T 319.0,480.0 Z">
+</path>
+</defs>
+<use x="2180.0" y="0" xlink:href="#g104/TT0"/>
+<use x="2763.0" y="0" xlink:href="#g115/TT0"/>
+</g>
+<text x="962.52" y="50.65" font-size="9.0pt" font-family="Avenir Next" fill="#b0b8c3" text-anchor="start" opacity="0">
+ Deaths</text>
+</g>
+</g>
+</svg>
