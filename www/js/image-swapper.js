@@ -16,7 +16,9 @@
         src: img,
       });
     });
-    processed.sort((a, b) => b.width - a.width);
+    processed.sort(function(a, b) {
+      return b.width - a.width;
+    });
     return processed;
   }
 
@@ -41,7 +43,7 @@
         this._img.style.height = '100%';
         this._outer.appendChild(this._img);
 
-        var resizeObserver = new ResizeObserver((entries) => {
+        var resizeObserver = new ResizeObserver(function(entries) {
           this._observedWidth = entries[0].contentRect.width;
           this._getClosestImage();
         });
@@ -60,7 +62,15 @@
           this._img.setAttribute('src', this.images[0].src);
           return;
         }
-        var index = this.images.findIndex((val) => width >= val.width);
+        var index = -1;
+        this.images.forEach(function(val, myIndex) {
+          if (index !== -1) {
+            return;
+          }
+          if (width >= val.width) {
+            index = myIndex;
+          }
+        });
         // First item width is smaller than observed width
         if (index === 0) {
           this._img.setAttribute('src', this.images[0].src);
