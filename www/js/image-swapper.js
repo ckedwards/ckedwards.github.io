@@ -158,11 +158,6 @@
     return _getPrototypeOf(o);
   }
 
-  var styleEl = document.createElement('style');
-  document.head.appendChild(styleEl);
-  var styleSheet = styleEl.sheet;
-  styleSheet.insertRule('image-swapper {display: block;}');
-
   function getImageData(images) {
     if (!images) {
       return [];
