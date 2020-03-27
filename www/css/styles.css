@@ -169,6 +169,18 @@ hr {
   display: block;
 }
 
+/* IE11 fixes */
+.key-val-main > .column {
+  flex-shrink: 1;
+}
+.key-val-main > .column > image-swapper,
+.key-val-main > .column > img {
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+/* IE11 fixes */
+
 .key-val-main {
   flex-wrap: initial;
   justify-content: center;
