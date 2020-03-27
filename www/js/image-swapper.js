@@ -8,7 +8,9 @@
     if (!images) {
       return [];
     }
-    var allImages = images.split(',').map((img) => img.trim());
+    var allImages = images.split(',').map(function(img) {
+      return img.trim();
+    });
     var processed = [];
     allImages.forEach(function(img) {
       processed.push({
