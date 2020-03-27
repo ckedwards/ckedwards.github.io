@@ -43,10 +43,12 @@
         this._img.style.height = '100%';
         this._outer.appendChild(this._img);
 
-        var resizeObserver = new ResizeObserver(function(entries) {
-          this._observedWidth = entries[0].contentRect.width;
-          this._getClosestImage();
-        });
+        var resizeObserver = new ResizeObserver(
+          function(entries) {
+            this._observedWidth = entries[0].contentRect.width;
+            this._getClosestImage();
+          }.bind(this)
+        );
         resizeObserver.observe(this);
       }
 
